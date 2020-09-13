@@ -1,10 +1,13 @@
-package atm;
+package th.ac.ku.atm;
+
+import org.springframework.stereotype.Component;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
 
 public class DataSourceFile implements DataSource {
 
